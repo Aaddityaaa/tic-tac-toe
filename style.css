@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffafcc;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-board{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #a2d2ff;
+    background-color: #ffebc6;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #bde0fe;
+    color: #344e41;
+    border: none;
+    border-radius: 1rem;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #bde0fe;
+    color: #344e41;
+    border: none;
+    border-radius: 1rem;
+}
+#msg{
+    font-size: 5vmin;
+    color: rgba(0, 0, 0, 0.799);
+    font-weight: bold;
+
+}
+.msg-container{
+    margin: 2vmin;
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+
+.box-grow{
+    transition: all 0.3s ease;
+}
+.box-grow:hover{
+    transform: scale(1.1);
+}    
